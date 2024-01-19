@@ -1,0 +1,23 @@
+theme = "dark_modern"
+
+[editor]
+true-color=true
+bufferline="multiple"
+line-number="relative"
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.statusline]
+left = ["mode", "file-name", "spinner"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.indent-guides]
+render = true
+character = "▏" # Some characters that work well: "╎", "┆", "┊", "⸽"

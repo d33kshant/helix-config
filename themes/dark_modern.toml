@@ -1,0 +1,4 @@
+inherits = "github_dark"
+
+"ui.background" = "bg_transparent"
+"ui.statusline.active" = { fg = "fg.default", bg = "canvas.default" }
