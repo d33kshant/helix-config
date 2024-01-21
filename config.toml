@@ -4,6 +4,7 @@ theme = "dark_modern"
 true-color=true
 bufferline="multiple"
 line-number="relative"
+insert-final-newline=false
 
 [editor.file-picker]
 hidden = false
